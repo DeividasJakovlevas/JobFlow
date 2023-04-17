@@ -1,0 +1,23 @@
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-3">
+      <app-job-filter (filtered)="onFiltered($event)"></app-job-filter>
+    </div>
+    <div class="col-md-9">
+      <div class="card">
+        <div class="card-body">
+          <app-job-description
+            [companyName]="job.companyName"
+            [companyRatings]="job.rating"
+            [jobDescription]="job.description"
+            [salary]="job.salary"
+            [skills]="job.skills"
+          ></app-job-description>
+        </div>
+          <button type="button" class="btn btn-primary" (click)="apply()">Apply</button>
+      </div>
+    </div>
+  </div>
+</div>
+

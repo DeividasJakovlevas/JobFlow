@@ -1,0 +1,47 @@
+.job-card {
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  margin: 20px;
+}
+
+.company-name {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.company-ratings {
+  font-size: 18px;
+  color: #FFD700;
+}
+
+.job-description {
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+.salary {
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+.skills {
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+.skills ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.skills li {
+  display: inline-block;
+  background-color: #ddd;
+  color: #444;
+  padding: 5px 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}

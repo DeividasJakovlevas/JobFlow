@@ -1,0 +1,14 @@
+<div class="job-card">
+  <div class="company-name">{{companyName}}</div>
+  <div class="company-ratings">{{companyRatings}} stars</div>
+  <div class="job-description">{{jobDescription}}</div>
+  <div class="salary">
+    Salary: {{ formattedSalary }} per month
+    <span class="yearly-salary">({{ yearlySalary }} per year)</span>
+  </div>
+  <div class="skills">
+    <ul>
+      <li *ngFor="let skill of skills">{{skill}}</li>
+    </ul>
+  </div>
+</div>

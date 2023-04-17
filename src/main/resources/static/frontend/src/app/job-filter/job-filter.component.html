@@ -1,0 +1,20 @@
+<div class="card">
+  <div class="card-header">Filter Jobs</div>
+  <div class="card-body">
+    <form>
+      <div class="form-group">
+        <label for="salary">Email:</label>
+        <input type="text" class="form-control" id="email" name="email" [(ngModel)]="email">
+      </div>
+      <div class="form-group">
+        <label for="salary">Minimum Salary:</label>
+        <input type="number" class="form-control" id="salary" name="salary" [(ngModel)]="salary">
+      </div>
+      <div class="form-group">
+        <label for="skills">Skills:</label>
+        <input type="text" class="form-control" id="skills" name="skills" [(ngModel)]="skills">
+      </div>
+      <button type="button" class="btn btn-primary" (click)="filter()">Next</button>
+    </form>
+  </div>
+</div>
